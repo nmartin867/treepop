@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		166AE0A618BC455500E01DAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 166AE0A518BC455500E01DAF /* Foundation.framework */; };
+		166AE0A818BC455500E01DAF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 166AE0A718BC455500E01DAF /* CoreGraphics.framework */; };
+		166AE0AA18BC455500E01DAF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 166AE0A918BC455500E01DAF /* UIKit.framework */; };
+		166AE0B018BC455500E01DAF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 166AE0AE18BC455500E01DAF /* InfoPlist.strings */; };
+		166AE0B218BC455500E01DAF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 166AE0B118BC455500E01DAF /* main.m */; };
+		166AE0B618BC455500E01DAF /* TPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 166AE0B518BC455500E01DAF /* TPAppDelegate.m */; };
+		166AE0B918BC455500E01DAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 166AE0B718BC455500E01DAF /* Main.storyboard */; };
+		166AE0BC18BC455500E01DAF /* TPMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 166AE0BB18BC455500E01DAF /* TPMasterViewController.m */; };
+		166AE0BF18BC455500E01DAF /* TPDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 166AE0BE18BC455500E01DAF /* TPDetailViewController.m */; };
+		166AE0C118BC455500E01DAF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 166AE0C018BC455500E01DAF /* Images.xcassets */; };
+		166AE0C818BC455500E01DAF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 166AE0C718BC455500E01DAF /* XCTest.framework */; };
+		166AE0C918BC455500E01DAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 166AE0A518BC455500E01DAF /* Foundation.framework */; };
+		166AE0CA18BC455500E01DAF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 166AE0A918BC455500E01DAF /* UIKit.framework */; };
+		166AE0D218BC455500E01DAF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 166AE0D018BC455500E01DAF /* InfoPlist.strings */; };
+		166AE0D418BC455500E01DAF /* TreePopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 166AE0D318BC455500E01DAF /* TreePopTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		166AE0CB18BC455500E01DAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 166AE09A18BC455500E01DAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 166AE0A118BC455500E01DAF;
+			remoteInfo = TreePop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		166AE0A218BC455500E01DAF /* TreePop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TreePop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		166AE0A518BC455500E01DAF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		166AE0A718BC455500E01DAF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		166AE0A918BC455500E01DAF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		166AE0AD18BC455500E01DAF /* TreePop-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TreePop-Info.plist"; sourceTree = "<group>"; };
+		166AE0AF18BC455500E01DAF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		166AE0B118BC455500E01DAF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		166AE0B318BC455500E01DAF /* TreePop-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TreePop-Prefix.pch"; sourceTree = "<group>"; };
+		166AE0B418BC455500E01DAF /* TPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPAppDelegate.h; sourceTree = "<group>"; };
+		166AE0B518BC455500E01DAF /* TPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPAppDelegate.m; sourceTree = "<group>"; };
+		166AE0B818BC455500E01DAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		166AE0BA18BC455500E01DAF /* TPMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPMasterViewController.h; sourceTree = "<group>"; };
+		166AE0BB18BC455500E01DAF /* TPMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPMasterViewController.m; sourceTree = "<group>"; };
+		166AE0BD18BC455500E01DAF /* TPDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPDetailViewController.h; sourceTree = "<group>"; };
+		166AE0BE18BC455500E01DAF /* TPDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPDetailViewController.m; sourceTree = "<group>"; };
+		166AE0C018BC455500E01DAF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		166AE0C618BC455500E01DAF /* TreePopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TreePopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		166AE0C718BC455500E01DAF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		166AE0CF18BC455500E01DAF /* TreePopTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TreePopTests-Info.plist"; sourceTree = "<group>"; };
+		166AE0D118BC455500E01DAF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		166AE0D318BC455500E01DAF /* TreePopTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TreePopTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		166AE09F18BC455500E01DAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				166AE0A818BC455500E01DAF /* CoreGraphics.framework in Frameworks */,
+				166AE0AA18BC455500E01DAF /* UIKit.framework in Frameworks */,
+				166AE0A618BC455500E01DAF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		166AE0C318BC455500E01DAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				166AE0C818BC455500E01DAF /* XCTest.framework in Frameworks */,
+				166AE0CA18BC455500E01DAF /* UIKit.framework in Frameworks */,
+				166AE0C918BC455500E01DAF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		166AE09918BC455500E01DAF = {
+			isa = PBXGroup;
+			children = (
+				166AE0AB18BC455500E01DAF /* TreePop */,
+				166AE0CD18BC455500E01DAF /* TreePopTests */,
+				166AE0A418BC455500E01DAF /* Frameworks */,
+				166AE0A318BC455500E01DAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		166AE0A318BC455500E01DAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				166AE0A218BC455500E01DAF /* TreePop.app */,
+				166AE0C618BC455500E01DAF /* TreePopTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		166AE0A418BC455500E01DAF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				166AE0A518BC455500E01DAF /* Foundation.framework */,
+				166AE0A718BC455500E01DAF /* CoreGraphics.framework */,
+				166AE0A918BC455500E01DAF /* UIKit.framework */,
+				166AE0C718BC455500E01DAF /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		166AE0AB18BC455500E01DAF /* TreePop */ = {
+			isa = PBXGroup;
+			children = (
+				166AE0B418BC455500E01DAF /* TPAppDelegate.h */,
+				166AE0B518BC455500E01DAF /* TPAppDelegate.m */,
+				166AE0B718BC455500E01DAF /* Main.storyboard */,
+				166AE0BA18BC455500E01DAF /* TPMasterViewController.h */,
+				166AE0BB18BC455500E01DAF /* TPMasterViewController.m */,
+				166AE0BD18BC455500E01DAF /* TPDetailViewController.h */,
+				166AE0BE18BC455500E01DAF /* TPDetailViewController.m */,
+				166AE0C018BC455500E01DAF /* Images.xcassets */,
+				166AE0AC18BC455500E01DAF /* Supporting Files */,
+			);
+			path = TreePop;
+			sourceTree = "<group>";
+		};
+		166AE0AC18BC455500E01DAF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				166AE0AD18BC455500E01DAF /* TreePop-Info.plist */,
+				166AE0AE18BC455500E01DAF /* InfoPlist.strings */,
+				166AE0B118BC455500E01DAF /* main.m */,
+				166AE0B318BC455500E01DAF /* TreePop-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		166AE0CD18BC455500E01DAF /* TreePopTests */ = {
+			isa = PBXGroup;
+			children = (
+				166AE0D318BC455500E01DAF /* TreePopTests.m */,
+				166AE0CE18BC455500E01DAF /* Supporting Files */,
+			);
+			path = TreePopTests;
+			sourceTree = "<group>";
+		};
+		166AE0CE18BC455500E01DAF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				166AE0CF18BC455500E01DAF /* TreePopTests-Info.plist */,
+				166AE0D018BC455500E01DAF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		166AE0A118BC455500E01DAF /* TreePop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 166AE0D718BC455500E01DAF /* Build configuration list for PBXNativeTarget "TreePop" */;
+			buildPhases = (
+				166AE09E18BC455500E01DAF /* Sources */,
+				166AE09F18BC455500E01DAF /* Frameworks */,
+				166AE0A018BC455500E01DAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TreePop;
+			productName = TreePop;
+			productReference = 166AE0A218BC455500E01DAF /* TreePop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		166AE0C518BC455500E01DAF /* TreePopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 166AE0DA18BC455500E01DAF /* Build configuration list for PBXNativeTarget "TreePopTests" */;
+			buildPhases = (
+				166AE0C218BC455500E01DAF /* Sources */,
+				166AE0C318BC455500E01DAF /* Frameworks */,
+				166AE0C418BC455500E01DAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				166AE0CC18BC455500E01DAF /* PBXTargetDependency */,
+			);
+			name = TreePopTests;
+			productName = TreePopTests;
+			productReference = 166AE0C618BC455500E01DAF /* TreePopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		166AE09A18BC455500E01DAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TP;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = MonkeyMan;
+				TargetAttributes = {
+					166AE0C518BC455500E01DAF = {
+						TestTargetID = 166AE0A118BC455500E01DAF;
+					};
+				};
+			};
+			buildConfigurationList = 166AE09D18BC455500E01DAF /* Build configuration list for PBXProject "TreePop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 166AE09918BC455500E01DAF;
+			productRefGroup = 166AE0A318BC455500E01DAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				166AE0A118BC455500E01DAF /* TreePop */,
+				166AE0C518BC455500E01DAF /* TreePopTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		166AE0A018BC455500E01DAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				166AE0C118BC455500E01DAF /* Images.xcassets in Resources */,
+				166AE0B018BC455500E01DAF /* InfoPlist.strings in Resources */,
+				166AE0B918BC455500E01DAF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		166AE0C418BC455500E01DAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				166AE0D218BC455500E01DAF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		166AE09E18BC455500E01DAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				166AE0B618BC455500E01DAF /* TPAppDelegate.m in Sources */,
+				166AE0BF18BC455500E01DAF /* TPDetailViewController.m in Sources */,
+				166AE0B218BC455500E01DAF /* main.m in Sources */,
+				166AE0BC18BC455500E01DAF /* TPMasterViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		166AE0C218BC455500E01DAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				166AE0D418BC455500E01DAF /* TreePopTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		166AE0CC18BC455500E01DAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 166AE0A118BC455500E01DAF /* TreePop */;
+			targetProxy = 166AE0CB18BC455500E01DAF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		166AE0AE18BC455500E01DAF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				166AE0AF18BC455500E01DAF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		166AE0B718BC455500E01DAF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				166AE0B818BC455500E01DAF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		166AE0D018BC455500E01DAF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				166AE0D118BC455500E01DAF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		166AE0D518BC455500E01DAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		166AE0D618BC455500E01DAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		166AE0D818BC455500E01DAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TreePop/TreePop-Prefix.pch";
+				INFOPLIST_FILE = "TreePop/TreePop-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		166AE0D918BC455500E01DAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TreePop/TreePop-Prefix.pch";
+				INFOPLIST_FILE = "TreePop/TreePop-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		166AE0DB18BC455500E01DAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TreePop.app/TreePop";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TreePop/TreePop-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TreePopTests/TreePopTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		166AE0DC18BC455500E01DAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TreePop.app/TreePop";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TreePop/TreePop-Prefix.pch";
+				INFOPLIST_FILE = "TreePopTests/TreePopTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		166AE09D18BC455500E01DAF /* Build configuration list for PBXProject "TreePop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				166AE0D518BC455500E01DAF /* Debug */,
+				166AE0D618BC455500E01DAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		166AE0D718BC455500E01DAF /* Build configuration list for PBXNativeTarget "TreePop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				166AE0D818BC455500E01DAF /* Debug */,
+				166AE0D918BC455500E01DAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		166AE0DA18BC455500E01DAF /* Build configuration list for PBXNativeTarget "TreePopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				166AE0DB18BC455500E01DAF /* Debug */,
+				166AE0DC18BC455500E01DAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 166AE09A18BC455500E01DAF /* Project object */;
+}
