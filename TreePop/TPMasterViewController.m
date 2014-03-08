@@ -8,6 +8,8 @@
 
 #import "TPMasterViewController.h"
 #import "AFHTTPRequestOperationManager.h"
+#import "TPAppDelegate.h"
+#import "SPLoginViewController.h"
 
 @interface TPMasterViewController () {
     NSMutableArray *_artists;
@@ -24,6 +26,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    TPAppDelegate *appDelegate = (TPAppDelegate *)[[UIApplication sharedApplication] delegate];
+    [self presentViewController:appDelegate.spotifyLoginViewController animated:YES completion:nil];
     _artists = [NSMutableArray array];
     [self updateArtistList];
 }
@@ -96,7 +100,6 @@
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    
 }
 
 @end
