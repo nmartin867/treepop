@@ -18,6 +18,8 @@
 
 @implementation TPMasterViewController
 
+static const NSString *ServiceBaseURL = @"http://buggylist.com:3000";
+
 - (void)awakeFromNib
 {
     [super awakeFromNib];
@@ -37,21 +39,18 @@
 }
 
 -(void)getArtistsFromSearchResults:(id)searchResponse{
-    NSDictionary *results = searchResponse[@"results"];
-    NSArray *collection = results[@"collection1"];
-    for(NSDictionary *musician in collection){
+    for(NSDictionary *musician in searchResponse){
         TPArtist *artist = [TPArtist new];
-        NSDictionary *artistInfo = musician[@"Artist"];
-        artist.name = artistInfo[@"text"];
-        artist.imageUrl = [musician[@"image"] objectForKey:@"src"];
-        artist.city = musician[@"City"];
+        artist.name = musician[@"name"];
+        artist.imageUrl = [NSString stringWithFormat:@"%@/image/%@", ServiceBaseURL, musician[@"imageFile"]];
+        artist.city = musician[@"city"];
         [_artists addObject:artist];
     }
 }
 
 - (void)updateArtistList{
     AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
-    [manager GET:@"http://www.kimonolabs.com/api/e1d6376a?apikey=17f07be1fa51fb9ee534beac571794b6" parameters:nil success:^(AFHTTPRequestOperation *operation, id responseObject) {
+    [manager GET:@"http://buggylist.com:3000" parameters:nil success:^(AFHTTPRequestOperation *operation, id responseObject) {
         [self getArtistsFromSearchResults:responseObject];
         [self.tableView reloadData];
     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {

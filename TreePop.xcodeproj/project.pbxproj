@@ -103,7 +103,6 @@
 		167592DE18BDA7B400176FDB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		167592E018BDA7C400176FDB /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		27174B2451F148DC84599820 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		B25C66E35F6A49E0B656E98C /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,7 +152,6 @@
 				166AE0CD18BC455500E01DAF /* TreePopTests */,
 				166AE0A418BC455500E01DAF /* Frameworks */,
 				166AE0A318BC455500E01DAF /* Products */,
-				B25C66E35F6A49E0B656E98C /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -537,7 +535,6 @@
 		};
 		166AE0D818BC455500E01DAF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B25C66E35F6A49E0B656E98C /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -567,7 +564,6 @@
 		};
 		166AE0D918BC455500E01DAF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B25C66E35F6A49E0B656E98C /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;

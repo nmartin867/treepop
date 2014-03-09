@@ -98,35 +98,6 @@
 		01D82C2218CACC5C00929D8C /* TPArtist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPArtist.h; sourceTree = "<group>"; };
 		01D82C2318CACC5C00929D8C /* TPArtist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPArtist.m; sourceTree = "<group>"; };
 		01D82C2618CADA0B00929D8C /* spotifyFat.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = spotifyFat.sh; sourceTree = "<group>"; };
-		01D82C2918CAE53300929D8C /* api.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = api.h; sourceTree = "<group>"; };
-		01D82C2A18CAE53300929D8C /* CocoaLibSpotify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaLibSpotify.h; sourceTree = "<group>"; };
-		01D82C2B18CAE53300929D8C /* CocoaLibSpotifyPlatformImports.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaLibSpotifyPlatformImports.h; sourceTree = "<group>"; };
-		01D82C2C18CAE53300929D8C /* SPAlbum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPAlbum.h; sourceTree = "<group>"; };
-		01D82C2D18CAE53300929D8C /* SPAlbumBrowse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPAlbumBrowse.h; sourceTree = "<group>"; };
-		01D82C2E18CAE53300929D8C /* SPArtist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPArtist.h; sourceTree = "<group>"; };
-		01D82C2F18CAE53300929D8C /* SPArtistBrowse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPArtistBrowse.h; sourceTree = "<group>"; };
-		01D82C3018CAE53300929D8C /* SPAsyncLoading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPAsyncLoading.h; sourceTree = "<group>"; };
-		01D82C3118CAE53300929D8C /* SPCircularBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPCircularBuffer.h; sourceTree = "<group>"; };
-		01D82C3218CAE53300929D8C /* SPCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPCommon.h; sourceTree = "<group>"; };
-		01D82C3318CAE53300929D8C /* SPCoreAudioController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPCoreAudioController.h; sourceTree = "<group>"; };
-		01D82C3418CAE53300929D8C /* SPErrorExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPErrorExtensions.h; sourceTree = "<group>"; };
-		01D82C3518CAE53300929D8C /* SPImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPImage.h; sourceTree = "<group>"; };
-		01D82C3618CAE53300929D8C /* SPLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPLoginViewController.h; sourceTree = "<group>"; };
-		01D82C3718CAE53300929D8C /* SPPlaybackManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPPlaybackManager.h; sourceTree = "<group>"; };
-		01D82C3818CAE53300929D8C /* SPPlaylist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPPlaylist.h; sourceTree = "<group>"; };
-		01D82C3918CAE53300929D8C /* SPPlaylistContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPPlaylistContainer.h; sourceTree = "<group>"; };
-		01D82C3A18CAE53300929D8C /* SPPlaylistFolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPPlaylistFolder.h; sourceTree = "<group>"; };
-		01D82C3B18CAE53300929D8C /* SPPlaylistFolderInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPPlaylistFolderInternal.h; sourceTree = "<group>"; };
-		01D82C3C18CAE53300929D8C /* SPPlaylistItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPPlaylistItem.h; sourceTree = "<group>"; };
-		01D82C3D18CAE53300929D8C /* SPPostTracksToInboxOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPPostTracksToInboxOperation.h; sourceTree = "<group>"; };
-		01D82C3E18CAE53300929D8C /* SPSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPSearch.h; sourceTree = "<group>"; };
-		01D82C3F18CAE53300929D8C /* SPSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPSession.h; sourceTree = "<group>"; };
-		01D82C4018CAE53300929D8C /* SPSignupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPSignupViewController.h; sourceTree = "<group>"; };
-		01D82C4118CAE53300929D8C /* SPToplist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPToplist.h; sourceTree = "<group>"; };
-		01D82C4218CAE53300929D8C /* SPTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPTrack.h; sourceTree = "<group>"; };
-		01D82C4318CAE53300929D8C /* SPUnknownPlaylist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPUnknownPlaylist.h; sourceTree = "<group>"; };
-		01D82C4418CAE53300929D8C /* SPURLExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPURLExtensions.h; sourceTree = "<group>"; };
-		01D82C4518CAE53300929D8C /* SPUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPUser.h; sourceTree = "<group>"; };
 		01D82C5018CAE7F200929D8C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		01D82C5218CAE80300929D8C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		01D82C5418CAE80F00929D8C /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
@@ -138,6 +109,34 @@
 		01D82C6218CAEB8A00929D8C /* libCocoaLibSpotify.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libCocoaLibSpotify.a; sourceTree = "<group>"; };
 		01D82C6418CAEFD200929D8C /* TPSpotifyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPSpotifyViewController.h; sourceTree = "<group>"; };
 		01D82C6518CAEFD200929D8C /* TPSpotifyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPSpotifyViewController.m; sourceTree = "<group>"; };
+		01DE4EA618CCF2040077E980 /* CocoaLibSpotify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaLibSpotify.h; sourceTree = SOURCE_ROOT; };
+		01DE4EA718CCF2040077E980 /* CocoaLibSpotifyPlatformImports.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaLibSpotifyPlatformImports.h; sourceTree = SOURCE_ROOT; };
+		01DE4EA818CCF2040077E980 /* SPAlbum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPAlbum.h; sourceTree = SOURCE_ROOT; };
+		01DE4EA918CCF2040077E980 /* SPAlbumBrowse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPAlbumBrowse.h; sourceTree = SOURCE_ROOT; };
+		01DE4EAA18CCF2040077E980 /* SPArtist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPArtist.h; sourceTree = SOURCE_ROOT; };
+		01DE4EAB18CCF2040077E980 /* SPArtistBrowse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPArtistBrowse.h; sourceTree = SOURCE_ROOT; };
+		01DE4EAC18CCF2040077E980 /* SPAsyncLoading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPAsyncLoading.h; sourceTree = SOURCE_ROOT; };
+		01DE4EAD18CCF2040077E980 /* SPCircularBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPCircularBuffer.h; sourceTree = SOURCE_ROOT; };
+		01DE4EAE18CCF2040077E980 /* SPCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPCommon.h; sourceTree = SOURCE_ROOT; };
+		01DE4EAF18CCF2040077E980 /* SPCoreAudioController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPCoreAudioController.h; sourceTree = SOURCE_ROOT; };
+		01DE4EB018CCF2040077E980 /* SPErrorExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPErrorExtensions.h; sourceTree = SOURCE_ROOT; };
+		01DE4EB118CCF2040077E980 /* SPImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPImage.h; sourceTree = SOURCE_ROOT; };
+		01DE4EB318CCF2040077E980 /* SPLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPLoginViewController.h; sourceTree = SOURCE_ROOT; };
+		01DE4EB418CCF2040077E980 /* SPPlaybackManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPPlaybackManager.h; sourceTree = SOURCE_ROOT; };
+		01DE4EB518CCF2040077E980 /* SPPlaylist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPPlaylist.h; sourceTree = SOURCE_ROOT; };
+		01DE4EB618CCF2040077E980 /* SPPlaylistContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPPlaylistContainer.h; sourceTree = SOURCE_ROOT; };
+		01DE4EB718CCF2040077E980 /* SPPlaylistFolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPPlaylistFolder.h; sourceTree = SOURCE_ROOT; };
+		01DE4EB818CCF2040077E980 /* SPPlaylistFolderInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPPlaylistFolderInternal.h; sourceTree = SOURCE_ROOT; };
+		01DE4EB918CCF2040077E980 /* SPPlaylistItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPPlaylistItem.h; sourceTree = SOURCE_ROOT; };
+		01DE4EBA18CCF2040077E980 /* SPPostTracksToInboxOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPPostTracksToInboxOperation.h; sourceTree = SOURCE_ROOT; };
+		01DE4EBB18CCF2040077E980 /* SPSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPSearch.h; sourceTree = SOURCE_ROOT; };
+		01DE4EBC18CCF2040077E980 /* SPSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPSession.h; sourceTree = SOURCE_ROOT; };
+		01DE4EBD18CCF2040077E980 /* SPSignupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPSignupViewController.h; sourceTree = SOURCE_ROOT; };
+		01DE4EBE18CCF2040077E980 /* SPToplist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPToplist.h; sourceTree = SOURCE_ROOT; };
+		01DE4EBF18CCF2040077E980 /* SPTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPTrack.h; sourceTree = SOURCE_ROOT; };
+		01DE4EC018CCF2040077E980 /* SPUnknownPlaylist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPUnknownPlaylist.h; sourceTree = SOURCE_ROOT; };
+		01DE4EC118CCF2040077E980 /* SPURLExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPURLExtensions.h; sourceTree = SOURCE_ROOT; };
+		01DE4EC218CCF2040077E980 /* SPUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPUser.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -298,35 +297,34 @@
 		01D82C2818CAE53300929D8C /* include */ = {
 			isa = PBXGroup;
 			children = (
-				01D82C2918CAE53300929D8C /* api.h */,
-				01D82C2A18CAE53300929D8C /* CocoaLibSpotify.h */,
-				01D82C2B18CAE53300929D8C /* CocoaLibSpotifyPlatformImports.h */,
-				01D82C2C18CAE53300929D8C /* SPAlbum.h */,
-				01D82C2D18CAE53300929D8C /* SPAlbumBrowse.h */,
-				01D82C2E18CAE53300929D8C /* SPArtist.h */,
-				01D82C2F18CAE53300929D8C /* SPArtistBrowse.h */,
-				01D82C3018CAE53300929D8C /* SPAsyncLoading.h */,
-				01D82C3118CAE53300929D8C /* SPCircularBuffer.h */,
-				01D82C3218CAE53300929D8C /* SPCommon.h */,
-				01D82C3318CAE53300929D8C /* SPCoreAudioController.h */,
-				01D82C3418CAE53300929D8C /* SPErrorExtensions.h */,
-				01D82C3518CAE53300929D8C /* SPImage.h */,
-				01D82C3618CAE53300929D8C /* SPLoginViewController.h */,
-				01D82C3718CAE53300929D8C /* SPPlaybackManager.h */,
-				01D82C3818CAE53300929D8C /* SPPlaylist.h */,
-				01D82C3918CAE53300929D8C /* SPPlaylistContainer.h */,
-				01D82C3A18CAE53300929D8C /* SPPlaylistFolder.h */,
-				01D82C3B18CAE53300929D8C /* SPPlaylistFolderInternal.h */,
-				01D82C3C18CAE53300929D8C /* SPPlaylistItem.h */,
-				01D82C3D18CAE53300929D8C /* SPPostTracksToInboxOperation.h */,
-				01D82C3E18CAE53300929D8C /* SPSearch.h */,
-				01D82C3F18CAE53300929D8C /* SPSession.h */,
-				01D82C4018CAE53300929D8C /* SPSignupViewController.h */,
-				01D82C4118CAE53300929D8C /* SPToplist.h */,
-				01D82C4218CAE53300929D8C /* SPTrack.h */,
-				01D82C4318CAE53300929D8C /* SPUnknownPlaylist.h */,
-				01D82C4418CAE53300929D8C /* SPURLExtensions.h */,
-				01D82C4518CAE53300929D8C /* SPUser.h */,
+				01DE4EA618CCF2040077E980 /* CocoaLibSpotify.h */,
+				01DE4EA718CCF2040077E980 /* CocoaLibSpotifyPlatformImports.h */,
+				01DE4EA818CCF2040077E980 /* SPAlbum.h */,
+				01DE4EA918CCF2040077E980 /* SPAlbumBrowse.h */,
+				01DE4EAA18CCF2040077E980 /* SPArtist.h */,
+				01DE4EAB18CCF2040077E980 /* SPArtistBrowse.h */,
+				01DE4EAC18CCF2040077E980 /* SPAsyncLoading.h */,
+				01DE4EAD18CCF2040077E980 /* SPCircularBuffer.h */,
+				01DE4EAE18CCF2040077E980 /* SPCommon.h */,
+				01DE4EAF18CCF2040077E980 /* SPCoreAudioController.h */,
+				01DE4EB018CCF2040077E980 /* SPErrorExtensions.h */,
+				01DE4EB118CCF2040077E980 /* SPImage.h */,
+				01DE4EB318CCF2040077E980 /* SPLoginViewController.h */,
+				01DE4EB418CCF2040077E980 /* SPPlaybackManager.h */,
+				01DE4EB518CCF2040077E980 /* SPPlaylist.h */,
+				01DE4EB618CCF2040077E980 /* SPPlaylistContainer.h */,
+				01DE4EB718CCF2040077E980 /* SPPlaylistFolder.h */,
+				01DE4EB818CCF2040077E980 /* SPPlaylistFolderInternal.h */,
+				01DE4EB918CCF2040077E980 /* SPPlaylistItem.h */,
+				01DE4EBA18CCF2040077E980 /* SPPostTracksToInboxOperation.h */,
+				01DE4EBB18CCF2040077E980 /* SPSearch.h */,
+				01DE4EBC18CCF2040077E980 /* SPSession.h */,
+				01DE4EBD18CCF2040077E980 /* SPSignupViewController.h */,
+				01DE4EBE18CCF2040077E980 /* SPToplist.h */,
+				01DE4EBF18CCF2040077E980 /* SPTrack.h */,
+				01DE4EC018CCF2040077E980 /* SPUnknownPlaylist.h */,
+				01DE4EC118CCF2040077E980 /* SPURLExtensions.h */,
+				01DE4EC218CCF2040077E980 /* SPUser.h */,
 			);
 			path = include;
 			sourceTree = "<group>";
@@ -695,6 +693,7 @@
 				01D82C0018CAC62200929D8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		01D82C0118CAC62200929D8C /* Build configuration list for PBXNativeTarget "TreePopTests" */ = {
 			isa = XCConfigurationList;
@@ -703,6 +702,7 @@
 				01D82C0318CAC62200929D8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
